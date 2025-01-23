@@ -19,7 +19,15 @@ nohup python -u train_diffusion.py --data ATV --random_seed 22 --model_type Alph
 
 
 
-## :two: Best Hyperparameters
+## :two: Hyperparameters for Cold-Start User Settings
+
+### :walking_man: SASRec backbone
+
+| Dataset    | learning rate | $d_s+d_n$    | $d_n$  | $\mathbf{E}_\text{ID}$ Init |
+| ---------- | ------------- | ------------ | ------ | ----------------- |
+| **Movies** | 1e-3          | 128           | 64    |      zeros     |
+| **Toys**   | 1e-3          | 128           | 64    |            |
+| **Sports** | 1e-2          | 128           | 64    |            |
 
 | Dataset    | learning rate | Weight Decay | lambda | w    | Embedding Size |
 | ---------- | ------------- | ------------ | ------ | ---- | -------------- |
