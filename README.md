@@ -1,6 +1,10 @@
 🐡: Welcome to AlphaFuse, this is a implementation of ***AlphaFuse: Learn ID Embeddings for Sequential
 Recommendation in Null Space of Language Embeddings***
 
+## :zero:  ​ Datasets
+
+https://drive.google.com/file/d/1ri0MRUScdA0AxZiAxj8N21QOE1rc0Nh8/view?usp=sharing
+
 ## :one:  ​ Guide for Running AlphaFuse
 
 
