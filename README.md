@@ -1,4 +1,4 @@
-:smile_cat: Welcome to AlphaFuse, this is a implementation of ***AlphaFuse: Learn ID Embeddings for Sequential
+🐡: Welcome to AlphaFuse, this is a implementation of ***AlphaFuse: Learn ID Embeddings for Sequential
 Recommendation in Null Space of Language Embeddings***
 
 ## :one:  ​ Guide for Running AlphaFuse
@@ -43,7 +43,7 @@ nohup python -u trainer.py --data ATV --cuda 0 --random_seed 22 --lr 0.00001 --t
 | **Beauty** | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
 | **Toys**   | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
 
-## :two: Hyperparameters for Long-tail Settings following LLM-ESR
+## :three: Hyperparameters for Long-tail Settings following LLM-ESR
 
 ### :walking_man: SASRec backbone
 
