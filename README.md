@@ -43,9 +43,9 @@ nohup python -u trainer.py --data ATV --cuda 0 --random_seed 22 --lr 0.00001 --t
 
 | Dataset    | learning rate | langauge API | $d_l$  | threshold    | $\mathbf{E}_\text{ID}$ Init |
 | ---------- | ------------- | ------------ | ------ | ---- | -------------- |
-| **Sports** | 1e-5          |  text-embedding-3-small    | 1536    | 0.25    | normal          |
-| **Beauty** | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
-| **Toys**   | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
+| **Movies** | 1e-5          |  text-embedding-3-small    | 1536    | 0.25    | normal          |
+| **Toys** | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
+| **Sports**   | 1e-5          | text-embedding-3-large     | 3072    | 0.25    | normal           |
 
 ## :three: Hyperparameters for Long-tail Settings following LLM-ESR
 
